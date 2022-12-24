@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+  <img src="./images/logo.svg" alt="SPLITTER" class="logo">
+  <main>
+    <div class="input-container">
+      <div class="bill-amount-wrapper">
+        <p class="wrapper-heading">Bill<span class="error-message">Can't be zero</span></p>
+        <div class="input-form-container">
+          <img src="./images/icon-dollar.svg" alt="$" class="input-images dollar-icon">
+          <input type="text" name="" class="input-form bill-input" placeholder="0">
+        </div>
+      </div>
+      <div class="tip-selection-wrapper">
+        <p class="wrapper-heading">Select Tip % </p>
+        <div class="tip-button-wrapper">
+          <button class="tip-button button-layout">5%</button>
+          <button class="tip-button button-layout">10%</button>
+          <button class="tip-button button-layout">15%</button>
+          <button class="tip-button button-layout">25%</button>
+          <button class="tip-button button-layout">50%</button>
+          <input class="button-layout tip-input-form" type="text" placeholder=" Custom">
+        </div>
+      </div>
+      <div class="tippers-amount-wrapper">
+        <p class="wrapper-heading">Number of people <span class="error-message">Can't be zero</span></p>
+        <div class="input-form-container">
+          <img src="./images/icon-person.svg" alt="#" class="input-images people-icon">
+          <input type="text" class="input-form tippers-input" placeholder="0">
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="display">
+      <div class="tip-amount-container">
+        <div class="individual flex-calc">
+          <p class="text">
+            <span class="white">Tip Amount</span>
+            <span class="faint-text">/ person</span>
+          </p>
+          <h1 class="calculated-amount individual-calculated-amount">$0.00</h1>
+        </div>
+        <div class="Total flex-calc">
+          <p class="text">
+            <span class="white">Total</span>
+            <span class="faint-text">/ person</span>
+          </p>
+          <h1 class="calculated-amount group-calculated-amount">$0.00</h1>
+        </div>
+      </div>
+      <button class="reset-button">RESET</button>
+    </div>
+  </main>
+
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/practitionerofsorts"
+      target="_blank">practitionerofsorts/promise</a>.
+  </p>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
