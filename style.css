@@ -92,7 +92,7 @@ main{
     transition: .2s ease-out;
 }
 .tip-input-form::placeholder{
-    font-size: 1em;
+    font-size: .9em;
     text-align: center;
     color: var(--Dark-grayish-cyan);
     font-weight: 300;
