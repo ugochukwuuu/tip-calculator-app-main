@@ -31,7 +31,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, minmax(.5em,1fr));
     width: 90%;
-    max-width: 900px;
+    max-width: 1000px;
     gap: 1em;
     padding: 1.7em;
     background-color: var(--White);
