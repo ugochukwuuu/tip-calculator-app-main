@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Space Mono', monospace;
+    font-size: 18px;
 }
 :root{
     --Strong-cyan: hsl(172, 67%, 45%);
